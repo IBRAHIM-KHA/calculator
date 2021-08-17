@@ -1,0 +1,65 @@
+<!-- saved from url=(0110)https://dyte-uploads.s3.ap-south-1.amazonaws.com/sijvaz-exnfao/eb61db4a-798a-44e9-9552-272885c1297d/calci.html -->
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=windows-1252">
+    <link rel="stylesheet" href="./project.css">
+</head>
+
+<body>
+    <div id="app">
+        <div class="calculator-container">
+            <div class="keys">
+                <div class="result-display" id="display"></div>
+                <div class="flex">
+                    <div>
+                        <div>
+                            <button class="key" onclick="sqr()">x^2</button>
+                            <button class="key" onclick="ope()">(</button>
+                            <button class="key" onclick="clos()">)</button>
+                            <button class="key" onclick="funplus()">+</button>
+                            <button class="key" onclick="funminus()">-</button>
+                            <button class="key" onclick="funmultiply()">*</button>
+                        </div>
+                        <div><button class="key" onclick="cube()">x^3</button>
+                            <button class="key" onclick="sine()">sin</button>
+                            <button class="key" onclick="sqrt()">sqrt</button>
+                            <button class="key" onclick="fun7()">7</button>
+                            <button class="key" onclick="fun8()">8</button>
+                            <button class="key" onclick="fun9()">9</button>
+                        </div>
+                        <div><button class="key" onclick="log1()">log10</button>
+                            <button class="key" onclick="cosine()">cos</button>
+                            <button class="key" onclick="log()">log</button>
+                            <button class="key" onclick="fun4()">4</button>
+                            <button class="key" onclick="fun5()">5</button>
+                            <button class="key" onclick="fun6()">6</button>
+                        </div>
+                        <div><button class="key" id="radians" onclick="rad()">rad</button>
+                            <button class="key" onclick="tangent()">tan</button>
+                            <button class="key" onclick="fact()">!</button>
+                            <button class="key" onclick="fun1()">1</button>
+                            <button class="key" onclick="fun2()">2</button>
+                            <button class="key" onclick="fun3()">3</button>
+                        </div>
+                        <div><button class="key" id="degree" onclick="deg()">deg</button>
+                            <button class="key" onclick="pi()">π
+                            </button>
+                            <button class="key" onclick="del()">DEL</button>
+                            <button class="key" onclick="fundec()">.</button>
+                            <button class="key" onclick="fun0()">0</button>
+                            <button class="key" onclick="funAC()">AC</button>
+                        </div>
+                    </div>
+                    <div class="flex-column">
+                        <button class="key" style="margin-left: 9px;;" onclick="fundivide()">/</button>
+                        <button class="key enter-button" onclick="funequal()">=</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="./project.js"></script>
+</body>
+
+</html>
